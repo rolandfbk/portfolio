@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Roland Portfolio</title>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+
+    <body>
+        <div class="wrapper" id="wrapper">
+            <header class="header">
+                <nav class="nav">
+                    <img src="img/image_geometry_1.svg" alt="">
+                    <a href="#" onclick="showMenu()"><img class="menu-button" src="img/ic_menu.svg" alt="Menu Buttom"></a>
+                </nav>
+            </header>
+
+            <section class="headline">
+                <div class="title set">
+                    <h1>Roland<br> Ossisa Yuma</h1>
+                </div>
+                <div class="content set">
+                    <p class="description">
+                        Hello! I am a software developer! I can help you build a product, feature or website. Taka a look of my works.
+                        If you like what you see and have a project you need coded, don’t hesitate and contact me.
+                    </p>
+                    <button class="start-button">
+                        Start collaboration
+                    </button>
+                </div>
+                <div class="content-bottom">
+                    <img class="f-img" src="img/image_geometry_2.svg" alt="">
+                </div>
+            </section>
+        </div>
+
+        <div class="wrapper-menu" id="wrapper-menu">
+            <header class="header">
+                <nav class="nav">
+                    <img src="img/image_geometry_menu_1.svg" alt="">
+                    <a href="#" onclick="closeMenu()"><img class="menu-button" src="img/Union.svg" alt="Menu Buttom"></a>
+                </nav>
+            </header>
+
+            <section class="menu">
+                <div class="content-menu">
+                    <ul>
+                        <li>Hello</li>
+                        <li>Portfolio</li>
+                        <li>About</li>
+                        <li>Contact</li>
+                    </ul>
+                </div>
+                <div class="content-bottom">
+                    <img class="f-img" src="img/image_geometry_menu_2.svg" alt="">
+                </div>
+            </section>
+        </div>
+
+        <script type="text/javascript">
+            function showMenu() {
+                document.getElementById("wrapper").style.display = "none";
+                document.getElementById("wrapper-menu").style.display = "flex";
+            }
+        </script>
+        <script type="text/javascript">
+            function closeMenu() {
+                document.getElementById("wrapper-menu").style.display = "none";
+                document.getElementById("wrapper").style.display = "flex";
+            }
+        </script>
+    </body>
+</html>

@@ -1,0 +1,149 @@
+
+body {
+    /* background: #E5E5E5; */
+}
+
+.wrapper { 
+    display: flex;
+    flex-direction: column;
+}
+
+.wrapper-menu { 
+    display: none;
+    flex-direction: column;
+}
+
+.header {
+    margin-bottom: 10px;
+}
+
+.header .nav {
+    display: flex;
+    justify-content: space-between;
+    /* align-items: center; */
+}
+
+.headline {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+}
+
+.content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+}
+
+.title {
+    height: 100px;
+    width: 350px;
+    left: 16px;
+    top: 104px;
+    border-radius: nullpx;
+    flex: 1;
+}
+
+.menu {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+}
+
+.content-bottom {
+    flex: 1;
+    display: flex;
+}
+
+.content-menu {
+    flex: 1;
+}
+
+h1 {
+    font-family: Playfair Display;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 50px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.description {
+    flex: 1;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: -0.01em;
+    text-align: left;
+}
+
+.start-button {
+    height: 50px;
+    width: 100%;
+    left: 16px;
+    top: 390px;
+    border-radius: 0px;
+    background: #1A2236;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #FFFFFF;
+    margin-bottom: 25px;
+    margin-top: 25px;
+    padding: 20px;
+    flex: 1;
+}
+
+button:hover {
+    border: 2px solid rgb(167, 19, 43);
+}
+
+.f-img {
+    width: 100%;
+    flex: 1;
+    align-self: flex-end;
+}
+
+.set {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.menu-button {
+    margin-top: 10px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    align-items: center;
+    height: 192px;
+    width: 85%;
+}
+
+ul > li {
+    flex: 1;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 48px;
+    letter-spacing: 0em;
+}
+
+li:hover {
+    color: rgb(167, 19, 43);
+}
