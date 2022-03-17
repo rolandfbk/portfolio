@@ -35,8 +35,8 @@
 }
 
 .project-pic-one {
-  margin-top: 20px;
   margin-bottom: -5px;
+  margin-top: -1px;
 }
 
 .project-pic-one img {
@@ -63,6 +63,106 @@ h3 {
 .flex-align {
   justify-content: space-between;
   align-items: center;
+}
+
+.flex-center {
+  align-items: center;
+  justify-content: center;
+
+}
+
+.download-img {
+  margin-left: 15px;
+}
+
+.languages {
+  height: 289px;
+  padding-left: 60px;
+  padding-top: 70px;
+  padding-bottom: 70px;
+  background-color: #1c528a;
+  background-image: url(../img/language.svg);
+  background-repeat: no-repeat;
+  background-position-y: bottom;
+  background-position-x:right;
+}
+
+.frameworks {
+  height: 289px;
+  padding-left: 60px;
+  padding-top: 70px;
+  padding-bottom: 70px;
+  background-color: #e2505c;
+  background-image: url(../img/framework.svg);
+  background-repeat: no-repeat;
+  background-position-y: bottom;
+  background-position-x:right;
+}
+
+.skills {
+  height: 289px;
+  padding-left: 60px;
+  padding-top: 70px;
+  padding-bottom: 70px;
+  background-color: #febf52;
+  background-image: url(../img/skills.svg);
+  background-repeat: no-repeat;
+  background-position-y: bottom;
+  background-position-x:right;
+}
+
+.languages > h3 {
+  color: #fff;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.languages > p {
+  color: #fff;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: -0.0525em;
+}
+
+.frameworks > h3 {
+  color: #fff;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.frameworks > p {
+  color: #fff;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: -0.0525em;
+}
+
+.skills > h3 {
+  color: #fff;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 30px;
+}
+
+.skills > p {
+  color: #fff;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: -0.0525em;
 }
 
 .courses {
@@ -92,6 +192,16 @@ h3 {
 
 .clearfix {
   margin: 10px;
+}
+
+.clearfix-big {
+  margin: 30px;
+}
+
+.about-myself {
+  display: flex;
+  height: 65vh;
+  flex-direction: column;
 }
 
 .content {
