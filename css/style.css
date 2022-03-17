@@ -1,6 +1,8 @@
 .wrapper {
   display: flex;
   flex-direction: column;
+  background-image: url(../img/image_geometry_1.svg);
+  background-repeat: no-repeat;
 }
 
 .wrapper-menu {
@@ -14,39 +16,35 @@
 
 .header .nav {
   display: flex;
-  justify-content: space-between;
+  justify-content: end;
 }
 
 .headline {
-  height: 100vh;
   display: flex;
+  height: 100vh;
   flex-direction: column;
+  background-image: url(../img/image_geometry_2.svg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: bottom;
 }
 
 .content {
-  flex: 1;
   display: flex;
+  flex: 1;
   flex-direction: column;
-  align-content: space-between;
 }
 
 .title {
-  height: 100px;
   width: 350px;
   left: 16px;
   top: 104px;
-  flex: 1;
 }
 
 .menu {
   height: 100vh;
   display: flex;
   flex-direction: column;
-}
-
-.content-bottom {
-  flex: 1;
-  display: flex;
 }
 
 .content-menu {
@@ -59,10 +57,10 @@ h1 {
   font-weight: 400;
   line-height: 50px;
   text-align: left;
+  margin-block-end: 1px;
 }
 
 .description {
-  flex: 1;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
@@ -83,20 +81,10 @@ h1 {
   line-height: 24px;
   text-align: center;
   color: #fff;
-  margin-bottom: 25px;
-  margin-top: 25px;
-  padding: 20px;
-  flex: 1;
 }
 
 button:hover {
   border: 2px solid rgb(167, 19, 43);
-}
-
-.f-img {
-  width: 100%;
-  flex: 1;
-  align-self: flex-end;
 }
 
 .set {
