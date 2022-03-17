@@ -49,7 +49,6 @@
 
 h3 {
   color: #fff;
-  font-family: 'Poppins';
   font-style: normal;
   font-weight: 300;
   font-size: 20px;
@@ -68,7 +67,6 @@ h3 {
 .flex-center {
   align-items: center;
   justify-content: center;
-
 }
 
 .download-img {
@@ -84,7 +82,7 @@ h3 {
   background-image: url(../img/language.svg);
   background-repeat: no-repeat;
   background-position-y: bottom;
-  background-position-x:right;
+  background-position-x: right;
 }
 
 .frameworks {
@@ -96,7 +94,7 @@ h3 {
   background-image: url(../img/framework.svg);
   background-repeat: no-repeat;
   background-position-y: bottom;
-  background-position-x:right;
+  background-position-x: right;
 }
 
 .skills {
@@ -108,12 +106,11 @@ h3 {
   background-image: url(../img/skills.svg);
   background-repeat: no-repeat;
   background-position-y: bottom;
-  background-position-x:right;
+  background-position-x: right;
 }
 
 .languages > h3 {
   color: #fff;
-  font-family: 'Poppins';
   font-style: normal;
   font-weight: 800;
   font-size: 20px;
@@ -122,7 +119,6 @@ h3 {
 
 .languages > p {
   color: #fff;
-  font-family: 'Poppins';
   font-style: normal;
   font-size: 18px;
   line-height: 27px;
@@ -131,7 +127,6 @@ h3 {
 
 .frameworks > h3 {
   color: #fff;
-  font-family: 'Poppins';
   font-style: normal;
   font-weight: 800;
   font-size: 20px;
@@ -140,7 +135,6 @@ h3 {
 
 .frameworks > p {
   color: #fff;
-  font-family: 'Poppins';
   font-style: normal;
   font-size: 18px;
   line-height: 27px;
@@ -149,7 +143,6 @@ h3 {
 
 .skills > h3 {
   color: #fff;
-  font-family: 'Poppins';
   font-style: normal;
   font-weight: 800;
   font-size: 20px;
@@ -158,7 +151,6 @@ h3 {
 
 .skills > p {
   color: #fff;
-  font-family: 'Poppins';
   font-style: normal;
   font-size: 18px;
   line-height: 27px;
@@ -167,7 +159,6 @@ h3 {
 
 .courses {
   padding: 10px;
-  font-family: 'Poppins';
   font-style: normal;
   font-weight: 300;
   font-size: 10.3334px;
@@ -181,7 +172,6 @@ h3 {
   height: 44px;
   background-color: #1a2236;
   border: 0.333333px solid #fff;
-  font-family: 'Poppins';
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
