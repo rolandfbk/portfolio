@@ -21,12 +21,77 @@
 
 .headline {
   display: flex;
-  height: 100vh;
+  height: 65vh;
   flex-direction: column;
   background-image: url(../img/image_geometry_2.svg);
   background-repeat: no-repeat;
   background-size: 100%;
   background-position: bottom;
+}
+
+.works {
+  display: flex;
+  flex-direction: column;
+}
+
+.project-pic-one {
+  margin-top: 20px;
+  margin-bottom: -5px;
+}
+
+.project-pic-one img {
+  width: 100%;
+}
+
+.project-name-one {
+  background-color: #1a2236;
+}
+
+h3 {
+  color: #fff;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 20px;
+  line-height: 80%;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-align {
+  justify-content: space-between;
+  align-items: center;
+}
+
+.courses {
+  padding: 10px;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 10.3334px;
+  line-height: 80%;
+  background-color: #98dede;
+  margin-right: 3px;
+}
+
+.project-button {
+  width: 178px;
+  height: 44px;
+  background-color: #1a2236;
+  border: 0.333333px solid #fff;
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #fff;
+}
+
+.clearfix {
+  margin: 10px;
 }
 
 .content {
