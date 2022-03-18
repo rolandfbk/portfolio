@@ -220,6 +220,10 @@ ul {
 }
 
 .ul-format {
+  padding-inline-start: 0.1em;
+}
+
+.ul-format-about {
   padding-inline-start: 20px;
 }
 
