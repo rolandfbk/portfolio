@@ -12,7 +12,6 @@
         <div class="wrapper" id="wrapper">
             <header class="header">
                 <nav class="nav">
-                    <!-- <img src="img/image_geometry_1.svg" alt=""> -->
                     <a href="#" onclick="showMenu()"><img class="menu-button" src="img/ic_menu.svg" alt="Menu Buttom"></a>
                 </nav>
             </header>
@@ -45,7 +44,7 @@
                     <div class="project-name-one">
                         <div class="set">
                             <h3>Project name goes here</h3>
-                            <ul class="flex ul-format">
+                            <ul class="ul-format">
                                 <li class="courses">HTML/CSS</li>
                                 <li class="courses">Ruby on Rails</li>
                                 <li class="courses">JavaScript</li>
@@ -153,7 +152,7 @@
                     </button>
                 </div>
                 <div class="clearfix-big"></div>
-                <div class="languages">
+                <div class="languages set">
                     <h3>Languages</h3>
                     <ul class="flex flex-dir-col ul-format-about ul-list-style">
                         <li><span>JavaScript (ES5/ES6)</span></li>
@@ -163,7 +162,7 @@
                     </ul>
                 </div>
                 <div class="clearfix"></div>
-                <div class="frameworks">
+                <div class="frameworks set">
                     <h3>Frameworks</h3>
                     <ul class="flex flex-dir-col ul-format-about ul-list-style">
                         <li><span>Bootstrap</span></li>
@@ -174,7 +173,7 @@
                     </ul>
                 </div>
                 <div class="clearfix"></div>
-                <div class="skills">
+                <div class="skills set">
                     <h3>Skills</h3>
                     <ul class="flex flex-dir-col ul-format-about ul-list-style">
                         <li><span>Codekit</span></li>
@@ -185,42 +184,48 @@
                     </ul>
                 </div>
             </section>
-        </div>
-
-        <div class="wrapper-menu" id="wrapper-menu">
-            <header class="header">
-                <nav class="nav">
-                    <img src="img/image_geometry_menu_1.svg" alt="">
-                    <a href="#" onclick="closeMenu()"><img class="menu-button" src="img/Union.svg" alt="Menu Buttom"></a>
-                </nav>
-            </header>
-
-            <section class="menu">
-                <div class="content-menu">
-                    <ul class="menu-list">
-                        <li>Hello</li>
-                        <li>Portfolio</li>
-                        <li>About</li>
-                        <li>Contact</li>
-                    </ul>
+            
+            <section class="contact">
+                <div class="contact-form">
+                    <div class="title set">
+                        <h2>Get started</h2>
+                    </div>
+                    <div class="content set">
+                        <p class="description">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna.
+                        </p>
+                        <form class="user-form" action="https://formspree.io/f/{form_id}" method="post">
+                            <label for="name">
+                                Your name
+                                <input class="name-font" type="text" name="name" id="name" maxlength="30" value="Anastasiia" disabled>
+                            </label>
+                            <label for="email">
+                                Your email
+                                <input type="email" name="email" id="email" placeholder="Enter your email address" required>
+                            </label>
+                            <textarea id="message" name="message" placeholder="Enter your message here..." required></textarea>
+                        </form>
+                        <button class="start-button">
+                            Start collaboration
+                        </button>
+                    </div>
                 </div>
-                <div class="content-bottom">
-                    <img class="f-img" src="img/image_geometry_menu_2.svg" alt="">
-                </div>
+                <footer class="footer">
+                    <div class="set ">
+                        <div class="resume">
+                            Get my Resume <img src="img/resume.svg" alt="">
+                        </div>
+                        <div class="social">
+                            <img src="img/ic_stackoverflow.svg" alt="">
+                            <img src="img/ic_github.svg" alt="">
+                            <img src="img/ic_twitter.svg" alt="">
+                            <img src="img/ic_linkedin.svg" alt="">
+                            <img src="img/ic_medium.svg" alt="">
+                            <img src="img/ic_angellist.svg" alt="">
+                        </div>
+                    </div>
+                </footer>
             </section>
         </div>
-
-        <script type="text/javascript">
-            function showMenu() {
-                document.getElementById("wrapper").style.display = "none";
-                document.getElementById("wrapper-menu").style.display = "flex";
-            }
-        </script>
-        <script type="text/javascript">
-            function closeMenu() {
-                document.getElementById("wrapper-menu").style.display = "none";
-                document.getElementById("wrapper").style.display = "flex";
-            }
-        </script>
     </body>
 </html>
