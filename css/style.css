@@ -113,6 +113,7 @@ h3 {
   line-height: 24px;
   text-align: center;
   color: #fff;
+  cursor: pointer;
 }
 
 .clearfix {
@@ -193,16 +194,30 @@ h2 {
   line-height: 24px;
   text-align: center;
   color: #fff;
+  cursor: pointer;
 }
 
 button:hover {
-  border: 2px solid rgb(167, 19, 43);
-  background-color: #e2505c;
+  border: 1px solid #1a2236;
+  color: #1a2236;
+  background-color: #fff;
 }
 
 button:active {
-  background-color: #1c528a;
-  border: 2px solid #1c528a;
+  background-color: #fff;
+  border: 2px solid #1a2236;
+}
+
+button:hover .icon-top {
+  stroke: #1a2236;
+}
+
+button:hover .icon-bottom {
+  fill: #1a2236;
+}
+
+button:hover .icon-project {
+  fill: #1a2236;
 }
 
 .set {
