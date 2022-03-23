@@ -44,7 +44,7 @@
                     <div class="project-name-one">
                         <div class="set">
                             <h3>Project name goes here</h3>
-                            <ul class="ul-format">
+                            <ul class="flex ul-format">
                                 <li class="courses">HTML/CSS</li>
                                 <li class="courses">Ruby on Rails</li>
                                 <li class="courses">JavaScript</li>
@@ -197,13 +197,13 @@
                         <form class="user-form" action="https://formspree.io/f/xoqrloon" method="post">
                             <label for="name">
                                 Your name
-                                <input class="name-font" type="text" name="name" id="name" maxlength="30" value="Anastasiia">
+                                <input class="name-font" type="text" name="name" id="name" maxlength="30" placeholder="Enter your name" required>
                             </label>
                             <label for="email" id="email_label">
                                 Your email
                                 <input type="email" name="email" id="email" placeholder="Enter your email address" required>
                             </label>
-                            <textarea id="message" name="message" placeholder="Enter your message here..." required></textarea>
+                            <textarea id="message" name="message" placeholder="Enter your message here..." maxlength="500" required></textarea>
 
                             <button class="start-button" type="submit">
                                 Start collaboration

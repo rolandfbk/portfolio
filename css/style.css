@@ -1,3 +1,7 @@
+body {
+  margin: 0;
+}
+
 .wrapper {
   display: flex;
   flex-direction: column;
@@ -193,6 +197,12 @@ h2 {
 
 button:hover {
   border: 2px solid rgb(167, 19, 43);
+  background-color: #e2505c;
+}
+
+button:active {
+  background-color: #1c528a;
+  border: 2px solid #1c528a;
 }
 
 .set {
