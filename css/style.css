@@ -494,6 +494,10 @@ input:focus {
   display: none;
 }
 
+.project {
+  display: none;
+}
+
 @media (min-width: 768px) {
   .wrapper {
     background-image: none;
@@ -517,7 +521,6 @@ input:focus {
   }
 
   .list-nav {
-    flex: 1;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -570,10 +573,10 @@ input:focus {
     width: 100%;
   }
 
-  .set {
+  /* .set {
     margin-left: 15%;
     margin-right: 15%;
-  }
+  } */
 
   .start-button {
     width: 70%;
@@ -582,4 +585,61 @@ input:focus {
   .center-self {
     place-self: center;
   }
+
+  .project-card {
+    display: none;
+  }
+
+  .works {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    overflow-x: hidden;
+  }
+
+  .grid-item {
+    grid-column: 1;
+    background-image: url(../img/main/image_dots_project.svg);
+    background-repeat: no-repeat;
+    background-size: 35%;
+    background-position-x: right;
+  }
+
+  .project {
+    grid-column: 2;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    height: 20em;
+    background-image: url(../img/main/project.svg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+  }
+
+  .project-name-one {
+
+  }
+
+  .title {
+    width: 100%;
+    left: 16px;
+    top: 104px;
+  }
+
+  .works > .grid-item > .title > h2 {
+    writing-mode: vertical-lr;
+    transform: rotate(-180deg);
+    margin-block-start: unset;
+  }
+
+  h1 {
+    font-size: 70px;
+    line-height: 100%;
+    margin-block-start: auto;
+  }
+
+  h2 {
+    font-size: 70px;
+    line-height: 100%;
+  }
+
 }
