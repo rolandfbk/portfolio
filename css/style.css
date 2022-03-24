@@ -485,3 +485,101 @@ input:focus {
   justify-content: space-between;
   margin-top: 25px;
 }
+
+.navigation {
+  display: none;
+}
+
+.presentation-background {
+  display: none;
+}
+
+@media (min-width: 768px) {
+  .wrapper {
+    background-image: none;
+  }
+
+  .toogle-menu {
+    display: none;
+  }
+
+  .header .nav {
+    display: flex;
+    justify-content: start;
+    padding-left: 30%;
+    padding-right: 30%;
+  }
+
+  .navigation {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .list-nav {
+    flex: 1;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+  }
+
+  .list-nav a {
+    text-decoration: none;
+    color: #1a2236;
+  }
+
+  .list-nav a div {
+    border-bottom: 2px solid transparent;
+    width: 30px;
+  }
+
+  .list-nav a:hover div {
+    border-bottom: 2px solid #1a2236;
+    width: 30px;
+  }
+
+  .headline {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    background-image: none;
+    padding-bottom: 10%;
+  }
+
+  .presentation {
+    grid-column: 1;
+    display: flex;
+    align-content: center;
+    width: 100%;
+    background-image: url(../img/main/image_dots_intro.png);
+    background-repeat: no-repeat;
+    background-size: 25%;
+    background-position: bottom;
+    background-position-x: right;
+  }
+
+  .presentation-background {
+    grid-column: 2;
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+
+  .presentation-background img {
+    width: 100%;
+  }
+
+  .set {
+    margin-left: 15%;
+    margin-right: 15%;
+  }
+
+  .start-button {
+    width: 70%;
+  }
+
+  .center-self {
+    place-self: center;
+  }
+}
