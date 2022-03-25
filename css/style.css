@@ -114,6 +114,9 @@ h3 {
   text-align: center;
   color: #fff;
   cursor: pointer;
+  transition-property: all;
+  transition-duration: 0.8s;
+  transition-delay: 0.2s;
 }
 
 .clearfix {
@@ -195,6 +198,9 @@ h2 {
   text-align: center;
   color: #fff;
   cursor: pointer;
+  transition-property: all;
+  transition-duration: 0.8s;
+  transition-delay: 0.2s;
 }
 
 button:hover {
@@ -208,12 +214,30 @@ button:active {
   border: 2px solid #1a2236;
 }
 
+.icon-top {
+  transition-property: all;
+  transition-duration: 0.8s;
+  transition-delay: 0.2s;
+}
+
 button:hover .icon-top {
   stroke: #1a2236;
 }
 
+.icon-bottom {
+  transition-property: all;
+  transition-duration: 0.8s;
+  transition-delay: 0.2s;
+}
+
 button:hover .icon-bottom {
   fill: #1a2236;
+}
+
+.icon-project {
+  transition-property: all;
+  transition-duration: 0.8s;
+  transition-delay: 0.2s;
 }
 
 button:hover .icon-project {
@@ -556,6 +580,9 @@ input:focus {
   .list-nav a div {
     border-bottom: 2px solid transparent;
     width: 30px;
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-delay: 0.1s;
   }
 
   .list-nav a:hover div {
@@ -1123,6 +1150,9 @@ input:focus {
   .list-nav a div {
     border-bottom: 2px solid transparent;
     width: 30px;
+    transition-property: all;
+    transition-duration: 0.5s;
+    transition-delay: 0.1s;
   }
 
   .list-nav a:hover div {
