@@ -12,7 +12,7 @@ This is a website that presents all the qualifications and working experience of
 
 
 
-## Live Demo (if available)
+## Live Demo
 
 [Live Demo Link](https://rolandfbk.github.io/portfolio/)
 
