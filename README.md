@@ -11,13 +11,6 @@ This is a website that presents all the qualifications and working experience of
 - HTML and CSS and Javascript
 
 
-
-## Live Demo
-
-[Live Demo Link](https://rolandfbk.github.io/portfolio/)
-
-
-
 ## Getting Started
 
 1. Please download the entire repo into your local computer
