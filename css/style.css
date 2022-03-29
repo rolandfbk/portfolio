@@ -245,6 +245,10 @@ button:hover .icon-project {
   fill: #1a2236;
 }
 
+#submit_button {
+  text-align: center;
+}
+
 .set {
   margin-left: 20px;
   margin-right: 20px;
@@ -315,7 +319,7 @@ li:hover {
   padding-left: 60px;
   padding-top: 70px;
   padding-bottom: 70px;
-  background-color: #e2505c;
+  background-color: #c92735;
   background-image: url(../img/framework.svg);
   background-repeat: no-repeat;
   background-position-y: bottom;
@@ -327,7 +331,7 @@ li:hover {
   padding-left: 60px;
   padding-top: 70px;
   padding-bottom: 70px;
-  background-color: #febf52;
+  background-color: #db8e08;
   background-image: url(../img/skills.svg);
   background-repeat: no-repeat;
   background-position-y: bottom;
@@ -503,6 +507,13 @@ input:focus {
 
 .resume img {
   margin-left: 15px;
+}
+
+.resume a {
+  display: flex;
+  color: #92dcdc;
+  cursor: pointer;
+  text-decoration: none;
 }
 
 .social {
@@ -898,7 +909,7 @@ input:focus {
     padding-left: 4%;
     padding-top: 4%;
     padding-bottom: 4%;
-    background-color: #e2505c;
+    background-color: #c92735;
     background-image: url(../img/framework.svg);
     background-repeat: no-repeat;
     background-position-y: bottom;
@@ -931,7 +942,7 @@ input:focus {
     padding-left: 4%;
     padding-top: 4%;
     padding-bottom: 4%;
-    background-color: #febf52;
+    background-color: #db8e08;
     background-image: url(../img/skills.svg);
     background-repeat: no-repeat;
     background-position-y: bottom;
@@ -1470,7 +1481,7 @@ input:focus {
     padding-left: 10%;
     padding-top: 4%;
     padding-bottom: 4%;
-    background-color: #e2505c;
+    background-color: #c92735;
     background-image: url(../img/framework.svg);
     background-repeat: no-repeat;
     background-position-y: bottom;
@@ -1503,7 +1514,7 @@ input:focus {
     padding-left: 10%;
     padding-top: 4%;
     padding-bottom: 4%;
-    background-color: #febf52;
+    background-color: #db8e08;
     background-image: url(../img/skills.svg);
     background-repeat: no-repeat;
     background-position-y: bottom;
