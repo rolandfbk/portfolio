@@ -39,4 +39,3 @@ closeMenuContact.addEventListener('click', () => {
   document.getElementById('wrapper-menu').style.display = 'none';
   document.getElementById('wrapper').style.display = 'flex';
 });
-
