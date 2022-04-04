@@ -145,7 +145,7 @@ h3 {
 }
 
 .menu {
-  height: 100vh;
+  height: 82vh;
   display: flex;
   flex-direction: column;
 }
@@ -255,6 +255,7 @@ button:hover .icon-project {
 
 .menu-button {
   margin-top: 10px;
+  margin-right: 10px;
 }
 
 .menu-list {
@@ -263,8 +264,8 @@ button:hover .icon-project {
   flex-direction: column;
   align-content: space-between;
   align-items: center;
-  height: 192px;
-  width: 85%;
+  width: 100%;
+  padding-inline-start: inherit;
 }
 
 ul {
@@ -547,6 +548,36 @@ input:focus {
 
 #message_label {
   display: none;
+}
+
+/* Mobile menu CSS */
+.wrapper-menu .header {
+  height: 150px;
+  background-image: url(../img/image_geometry_menu_1.svg);
+  background-repeat: no-repeat;
+  background-size: 85%;
+}
+
+.content-bottom {
+  height: 200px;
+  background-image: url(../img/image_geometry_menu_2.svg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: bottom;
+}
+
+h4 {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 300%;
+  text-align: center;
+  color: #000;
+}
+
+.menu-list a {
+  text-decoration: none;
 }
 
 @media (min-width: 768px) {
