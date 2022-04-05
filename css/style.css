@@ -1,3 +1,5 @@
+/* stylelint-disable no-duplicate-selectors */
+/* stylelint-disable no-descending-specificity */
 body {
   margin: 0;
 }
@@ -584,7 +586,7 @@ h4 {
 
 /* Project pop-up CSS */
 .project-popup-title {
-  margin-bottom: 10px
+  margin-bottom: 10px;
 }
 
 .project-popup-button {
@@ -1222,7 +1224,7 @@ h4 {
 
   /* Project pop-up CSS */
   .project-popup-main-title {
-    margin-bottom: 10px
+    margin-bottom: 10px;
   }
 
   .project-popup-main-button {
@@ -1357,7 +1359,7 @@ h4 {
     fill: #fff;
   }
 
-  .project-popup-main-button-nav button+button {
+  .project-popup-main-button-nav button + button {
     display: flex;
     align-items: center;
     background-color: #fff;
@@ -1945,7 +1947,7 @@ h4 {
 
   /* Project pop-up CSS */
   .project-popup-main-title {
-    margin-bottom: 10px
+    margin-bottom: 10px;
   }
 
   .project-popup-main-button {
@@ -2080,7 +2082,7 @@ h4 {
     fill: #fff;
   }
 
-  .project-popup-main-button-nav button+button {
+  .project-popup-main-button-nav button + button {
     display: flex;
     align-items: center;
     background-color: #fff;
