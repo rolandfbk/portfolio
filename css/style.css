@@ -582,6 +582,71 @@ h4 {
   text-decoration: none;
 }
 
+/* Project pop-up CSS */
+.project-popup-title {
+  margin-bottom: 10px
+}
+
+.project-popup-button {
+  margin-top: 30px;
+  margin-right: 10px;
+}
+
+.wrapper-project-popup {
+  display: none;
+  flex-direction: column;
+}
+
+.project-popup {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+
+.content-project-popup {
+  flex: 1;
+}
+
+.project-popup-title h2 {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 80%;
+  color: #1a2236;
+}
+
+.project-popup-language .courses {
+  background-color: #fff;
+  border: 1px solid #1a2236;
+  margin-right: 10px;
+}
+
+.img-slideshow img {
+  width: 100%;
+}
+
+.project-popup-description p {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: #1a2236;
+}
+
+.project-popup-button-collaboration button {
+  margin-top: 30px;
+  padding: 12px;
+  background-color: #fff;
+  color: #1a2236;
+  border: 1px solid #1a2236;
+}
+
+.project-popup-button-collaboration button img {
+  float: right;
+}
+
 @media (min-width: 768px) {
   body {
     overflow-x: hidden;
@@ -1149,6 +1214,97 @@ h4 {
   .social {
     grid-column: 2;
     margin-top: 0;
+  }
+
+  /* Project pop-up CSS */
+  .project-popup-main-title {
+    margin-bottom: 10px
+  }
+
+  .project-popup-main-button {
+    margin-top: 30px;
+    margin-right: 10px;
+  }
+
+  .wrapper-project-popup-main {
+    display: flex;
+    flex-direction: column;
+    padding: 40px;
+    background-color: rgb(0 0 0 / 36%);
+  }
+
+  .wrapper-project-popup-main-background {
+    background: #fff;
+    padding: 15px;
+  }
+
+  .wrapper-project-popup-main .header .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: inherit;
+    padding-right: inherit;
+  }
+
+  .wrapper-project-popup-main .header .nav h2 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 80%;
+    color: #1a2236;
+  }
+
+  .project-popup-main {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+  }
+
+  .project-popup-main-set {
+    display: flex;
+    flex-direction: column;
+    padding-left: 15%;
+    padding-right: 15%;
+  }
+
+  .project-popup-button-main-collaboration {
+    display: flex;
+  }
+
+  .content-project-popup-main {
+    flex: 1;
+  }
+
+  .project-popup-main-language .courses {
+    background-color: #fff;
+    border: 1px solid #1a2236;
+    margin-right: 10px;
+  }
+
+  .img-slideshow img {
+    width: 100%;
+  }
+
+  .project-popup-main-description p {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #1a2236;
+  }
+
+  .project-popup-main-button-collaboration button {
+    margin-top: 30px;
+    padding: 12px;
+    background-color: #fff;
+    color: #1a2236;
+    border: 1px solid #1a2236;
+  }
+
+  .project-popup-button-main-collaboration button img {
+    float: right;
   }
 }
 

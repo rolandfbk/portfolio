@@ -230,7 +230,7 @@
                                 <li class="courses">JavaScript</li>
                             </ul>
                             <div class="clearfix"></div>
-                            <button class="project-button flex flex-align">
+                            <button class="project-button flex flex-align" id="project-button-popup">
                                 See this project
 
                                     <svg class="icon-project" width="21" height="17" viewBox="0 0 21 17" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -381,7 +381,37 @@
                 <div class="content-bottom"></div>
             </section>
         </div>
+        <div class="wrapper-project-popup set" id="wrapper-project-popup">
+            <header class="header">
+                <nav class="nav">
+                    <a class="close-project-popup" href="#"><img class="project-popup-button" src="img/Union.svg" alt="Menu Buttom"></a>
+                </nav>
+            </header>
 
+            <section class="project-popup">
+                <div class="project-popup-title">
+                    <h2 id="project_details_title"></h2>
+                </div>
+                <div class="project-popup-language">
+                    <ul class="flex ul-format" id="project_details_language"></ul>
+                </div>
+                <div class="project-popup-slideshow">
+                    <div class="img-slideshow" id="project_details_slideshow"></div>
+                </div>
+                <div class="project-popup-description">
+                    <p id="project_details_des_1"></p>
+                    <p id="project_details_des_2"></p>
+                </div>
+                <div class="project-popup-button-collaboration set">
+                    <button class="start-button">
+                        See live <img src="img/seelive.svg" alt="Get my Resume">
+                    </button>
+                    <button class="start-button">
+                        See source <img src="img/github_project.svg" alt="Github">
+                    </button>
+                </div>
+            </section>
+        </div>
         <script src="js/index.js"></script>
     </body>
 </html>
