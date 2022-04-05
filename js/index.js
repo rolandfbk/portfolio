@@ -1,4 +1,4 @@
-//Menu implementation
+// Menu implementation
 const showMenu = document.querySelector('.toogle-menu');
 
 showMenu.addEventListener('click', () => {
@@ -41,8 +41,8 @@ closeMenuContact.addEventListener('click', () => {
   document.getElementById('wrapper').style.display = 'flex';
 });
 
-//Project details implementation
-const project_details = {
+// Project details implementation
+const projectDetails = {
   title: 'Project name goes here',
   description_first: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi',
   description_second: 'Ut aliquip ex ea commodo consequat.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi.',
@@ -50,72 +50,74 @@ const project_details = {
   languages: {
     language_1: 'HTML/CSS',
     language_2: 'Ruby on Rails',
-    language_3: 'JavaScript'
-  }
-}
+    language_3: 'JavaScript',
+  },
+};
 
-//For The mobile version
-const project_details_title = document.getElementById('project_details_title');
-project_details_title.textContent = project_details.title;
+// For The mobile version
+const projectDetailsTitle = document.getElementById('project_details_title');
+projectDetailsTitle.textContent = projectDetails.title;
 
-const project_details_language = document.getElementById('project_details_language');
+const projectDetailsLanguage = document.getElementById('project_details_language');
 
-let list = [];
-let arr_lang = [];
+const list = [];
+const arrLang = [];
 let count = 0;
-for (let lang in project_details.languages)
-{
+
+const keys = Object.keys(projectDetails.languages);
+const values = Object.values(projectDetails.languages);
+for (let i = 0; i < keys.length; i += 1) {
   list[count] = document.createElement('li');
   list[count].className = 'courses';
-
-  arr_lang[count] = project_details.languages[lang];
-  list[count].textContent = arr_lang[count];
-  project_details_language.appendChild(list[count]);
-  count++;
+  arrLang[count] = values[i];
+  list[count].textContent = arrLang[count];
+  projectDetailsLanguage.appendChild(list[count]);
+  count += 1;
 }
 
-const project_details_slideshow = document.getElementById('project_details_slideshow');
-project_details_slideshow.innerHTML = '<img src="'+project_details.image_slideshow+'" alt="">';
+const projectDetailsSlideshow = document.getElementById('project_details_slideshow');
+projectDetailsSlideshow.innerHTML = `<img src="${projectDetails.image_slideshow}" alt="">`;
 
-const project_details_des_1 = document.getElementById('project_details_des_1');
-project_details_des_1.textContent = project_details.description_first;
+const projectDetailsDes1 = document.getElementById('project_details_des_1');
+projectDetailsDes1.textContent = projectDetails.description_first;
 
-const project_details_des_2 = document.getElementById('project_details_des_2');
-project_details_des_2.textContent = project_details.description_second;
+const projectDetailsDes2 = document.getElementById('project_details_des_2');
+projectDetailsDes2.textContent = projectDetails.description_second;
 
-//For the desktop version
-const project_details_main_title = document.getElementById('project_details_main_title');
-project_details_main_title.textContent = project_details.title;
+// For the desktop version
+const projectDetailsMainTitle = document.getElementById('project_details_main_title');
+projectDetailsMainTitle.textContent = projectDetails.title;
 
-const project_details_main_language = document.getElementById('project_details_main_language');
+const projectDetailsMainLanguage = document.getElementById('project_details_main_language');
 
-let list_main = [];
-let arr_lang_main = [];
-let count_main = 0;
-for (let lang in project_details.languages)
-{
-  list_main[count_main] = document.createElement('li');
-  list_main[count_main].className = 'courses';
+const listMain = [];
+const arrLangMain = [];
+let countMain = 0;
 
-  arr_lang_main[count_main] = project_details.languages[lang];
-  list_main[count_main].textContent = arr_lang_main[count_main];
-  project_details_main_language.appendChild(list_main[count_main]);
-  count_main++;
+const keysMain = Object.keys(projectDetails.languages);
+const valuesMain = Object.values(projectDetails.languages);
+for (let i = 0; i < keysMain.length; i += 1) {
+  listMain[countMain] = document.createElement('li');
+  listMain[countMain].className = 'courses';
+  arrLangMain[countMain] = valuesMain[i];
+  listMain[countMain].textContent = arrLangMain[countMain];
+  projectDetailsMainLanguage.appendChild(listMain[countMain]);
+  countMain += 1;
 }
 
-const project_details_main_slideshow = document.getElementById('project_details_main_slideshow');
-project_details_main_slideshow.innerHTML = '<img src="'+project_details.image_slideshow+'" alt="">';
+const projectDetailsMainSlideshow = document.getElementById('project_details_main_slideshow');
+projectDetailsMainSlideshow.innerHTML = `<img src="${projectDetails.image_slideshow}" alt="">`;
 
-const project_details_main_des_1 = document.getElementById('project_details_main_des_1');
-project_details_main_des_1.textContent = project_details.description_first;
+const projectDetailsMainDes1 = document.getElementById('project_details_main_des_1');
+projectDetailsMainDes1.textContent = projectDetails.description_first;
 
-const project_details_main_des_2 = document.getElementById('project_details_main_des_2');
-project_details_main_des_2.textContent = project_details.description_second;
+const projectDetailsMainDes2 = document.getElementById('project_details_main_des_2');
+projectDetailsMainDes2.textContent = projectDetails.description_second;
 
 const showProjectDetails = document.querySelectorAll('.mobile-project');
 
-for (const button of showProjectDetails) {
-  button.addEventListener('click', () => {
+for (let i = 0; i < showProjectDetails.length; i += 1) {
+  showProjectDetails[i].addEventListener('click', () => {
     document.getElementById('wrapper').style.display = 'none';
     document.getElementById('wrapper-project-popup').style.display = 'flex';
   });
@@ -130,8 +132,8 @@ closeProjectDetails.addEventListener('click', () => {
 
 const showProjectDetailsMain = document.querySelectorAll('.main-project');
 
-for (const buttonMain of showProjectDetailsMain) {
-  buttonMain.addEventListener('click', () => {
+for (let y = 0; y < showProjectDetailsMain.length; y += 1) {
+  showProjectDetailsMain[y].addEventListener('click', () => {
     document.getElementById('wrapper').style.display = 'none';
     document.getElementById('wrapper-project-popup-main').style.display = 'flex';
   });
