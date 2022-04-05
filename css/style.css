@@ -1,5 +1,3 @@
-/* stylelint-disable no-duplicate-selectors */
-/* stylelint-disable no-descending-specificity */
 body {
   margin: 0;
 }
@@ -1303,6 +1301,16 @@ h4 {
     color: #1a2236;
   }
 
+  .project-popup-main-button-nav button {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    color: #1a2236;
+    border: none;
+    height: auto;
+    width: fit-content;
+  }
+
   .project-popup-main-button-collaboration button {
     display: flex;
     justify-content: space-between;
@@ -1313,6 +1321,16 @@ h4 {
     border: 1px solid #1a2236;
     width: 70%;
     margin-right: 10%;
+  }
+
+  .project-popup-main-button-nav button + button {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    color: #1a2236;
+    border: none;
+    height: auto;
+    width: fit-content;
   }
 
   .project-popup-main-button-collaboration button:hover {
@@ -1335,21 +1353,8 @@ h4 {
     margin-top: 20%;
   }
 
-  .project-popup-main-button-nav button {
-    display: flex;
-    align-items: center;
-    background-color: #fff;
-    color: #1a2236;
-    border: none;
-    height: auto;
-    width: fit-content;
-  }
-
   .project-icon-bottom {
     fill: #1a2236;
-  }
-
-  .project-icon-bottom {
     transition-property: all;
     transition-duration: 0.8s;
     transition-delay: 0.2s;
@@ -1357,16 +1362,6 @@ h4 {
 
   .project-popup-main-button-collaboration button:hover .project-icon-bottom {
     fill: #fff;
-  }
-
-  .project-popup-main-button-nav button + button {
-    display: flex;
-    align-items: center;
-    background-color: #fff;
-    color: #1a2236;
-    border: none;
-    height: auto;
-    width: fit-content;
   }
 
   .project-popup-padding {
@@ -2026,6 +2021,16 @@ h4 {
     color: #1a2236;
   }
 
+  .project-popup-main-button-nav button {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    color: #1a2236;
+    border: none;
+    height: auto;
+    width: fit-content;
+  }
+
   .project-popup-main-button-collaboration button {
     display: flex;
     justify-content: space-between;
@@ -2036,6 +2041,16 @@ h4 {
     border: 1px solid #1a2236;
     width: 70%;
     margin-right: 10%;
+  }
+
+  .project-popup-main-button-nav button + button {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    color: #1a2236;
+    border: none;
+    height: auto;
+    width: fit-content;
   }
 
   .project-popup-main-button-collaboration button:hover {
@@ -2058,21 +2073,8 @@ h4 {
     margin-top: 20%;
   }
 
-  .project-popup-main-button-nav button {
-    display: flex;
-    align-items: center;
-    background-color: #fff;
-    color: #1a2236;
-    border: none;
-    height: auto;
-    width: fit-content;
-  }
-
   .project-icon-bottom {
     fill: #1a2236;
-  }
-
-  .project-icon-bottom {
     transition-property: all;
     transition-duration: 0.8s;
     transition-delay: 0.2s;
@@ -2080,16 +2082,6 @@ h4 {
 
   .project-popup-main-button-collaboration button:hover .project-icon-bottom {
     fill: #fff;
-  }
-
-  .project-popup-main-button-nav button + button {
-    display: flex;
-    align-items: center;
-    background-color: #fff;
-    color: #1a2236;
-    border: none;
-    height: auto;
-    width: fit-content;
   }
 
   .project-popup-padding {
