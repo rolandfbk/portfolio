@@ -647,6 +647,10 @@ h4 {
   float: right;
 }
 
+.wrapper-project-popup-main {
+  display: none;
+}
+
 @media (min-width: 768px) {
   body {
     overflow-x: hidden;
@@ -1227,10 +1231,10 @@ h4 {
   }
 
   .wrapper-project-popup-main {
-    display: flex;
+    display: none;
     flex-direction: column;
     padding: 40px;
-    background-color: rgb(0 0 0 / 36%);
+    background-color: rgba(26, 34, 54, 0.95);
   }
 
   .wrapper-project-popup-main-background {
@@ -1268,8 +1272,10 @@ h4 {
     padding-right: 15%;
   }
 
-  .project-popup-button-main-collaboration {
+  .project-popup-main-button-collaboration {
     display: flex;
+    margin-right: 10%;
+    justify-content: start;
   }
 
   .content-project-popup-main {
@@ -1296,15 +1302,73 @@ h4 {
   }
 
   .project-popup-main-button-collaboration button {
+    display: flex;
+    justify-content: space-between;
     margin-top: 30px;
     padding: 12px;
     background-color: #fff;
     color: #1a2236;
     border: 1px solid #1a2236;
+    width: 70%;
+    margin-right: 10%;
   }
 
-  .project-popup-button-main-collaboration button img {
+  .project-popup-main-button-collaboration button:hover {
+    border: 1px solid #1a2236;
+    color: #fff;
+    background-color: #1a2236;
+  }
+
+  .project-popup-main-button-collaboration button img {
     float: right;
+  }
+
+  .project-popup-main-button-collaboration button span {
+    float: left;
+  }
+
+  .project-popup-main-button-nav {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20%;
+  }
+
+  .project-popup-main-button-nav button {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    color: #1a2236;
+    border: none;
+    height: auto;
+    width: fit-content;
+  }
+
+  .project-icon-bottom {
+    fill: #1a2236;
+  }
+
+  .project-icon-bottom {
+    transition-property: all;
+    transition-duration: 0.8s;
+    transition-delay: 0.2s;
+  }
+
+  .project-popup-main-button-collaboration button:hover .project-icon-bottom {
+    fill: #fff;
+  }
+
+  .project-popup-main-button-nav button+button {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    color: #1a2236;
+    border: none;
+    height: auto;
+    width: fit-content;
+  }
+
+  .project-popup-padding {
+    padding-right: 10px;
   }
 }
 
@@ -1877,5 +1941,156 @@ h4 {
   .social {
     grid-column: 2;
     margin-top: 0;
+  }
+
+  /* Project pop-up CSS */
+  .project-popup-main-title {
+    margin-bottom: 10px
+  }
+
+  .project-popup-main-button {
+    margin-top: 30px;
+    margin-right: 10px;
+  }
+
+  .wrapper-project-popup-main {
+    display: none;
+    flex-direction: column;
+    padding: 40px;
+    background-color: rgba(26, 34, 54, 0.95);
+  }
+
+  .wrapper-project-popup-main-background {
+    background: #fff;
+    padding: 15px;
+  }
+
+  .wrapper-project-popup-main .header .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: inherit;
+    padding-right: inherit;
+  }
+
+  .wrapper-project-popup-main .header .nav h2 {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 80%;
+    color: #1a2236;
+  }
+
+  .project-popup-main {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+  }
+
+  .project-popup-main-set {
+    display: flex;
+    flex-direction: column;
+    padding-left: 15%;
+    padding-right: 15%;
+  }
+
+  .project-popup-main-button-collaboration {
+    display: flex;
+    margin-right: 10%;
+    justify-content: start;
+  }
+
+  .content-project-popup-main {
+    flex: 1;
+  }
+
+  .project-popup-main-language .courses {
+    background-color: #fff;
+    border: 1px solid #1a2236;
+    margin-right: 10px;
+  }
+
+  .img-slideshow img {
+    width: 100%;
+  }
+
+  .project-popup-main-description p {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    color: #1a2236;
+  }
+
+  .project-popup-main-button-collaboration button {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+    padding: 12px;
+    background-color: #fff;
+    color: #1a2236;
+    border: 1px solid #1a2236;
+    width: 70%;
+    margin-right: 10%;
+  }
+
+  .project-popup-main-button-collaboration button:hover {
+    border: 1px solid #1a2236;
+    color: #fff;
+    background-color: #1a2236;
+  }
+
+  .project-popup-main-button-collaboration button img {
+    float: right;
+  }
+
+  .project-popup-main-button-collaboration button span {
+    float: left;
+  }
+
+  .project-popup-main-button-nav {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20%;
+  }
+
+  .project-popup-main-button-nav button {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    color: #1a2236;
+    border: none;
+    height: auto;
+    width: fit-content;
+  }
+
+  .project-icon-bottom {
+    fill: #1a2236;
+  }
+
+  .project-icon-bottom {
+    transition-property: all;
+    transition-duration: 0.8s;
+    transition-delay: 0.2s;
+  }
+
+  .project-popup-main-button-collaboration button:hover .project-icon-bottom {
+    fill: #fff;
+  }
+
+  .project-popup-main-button-nav button+button {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    color: #1a2236;
+    border: none;
+    height: auto;
+    width: fit-content;
+  }
+
+  .project-popup-padding {
+    padding-right: 10px;
   }
 }
