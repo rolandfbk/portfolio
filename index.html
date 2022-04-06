@@ -322,7 +322,7 @@
                             <p class="description-desktop">
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                             </p>
-                            <form class="user-form" action="https://formspree.io/f/xoqrloon" method="post">
+                            <form class="user-form" id="user-form" action="https://formspree.io/f/xoqrloon" method="post">
                                 <label for="name" id="name_label">
                                     Your name
                                     <input class="name-font" type="text" name="name" id="name" maxlength="30" placeholder="Enter your name" required>
@@ -333,7 +333,7 @@
                                 </label>
                                 <label for="message" id="message_label">Message</label>
                                 <textarea id="message" name="message" placeholder="Enter your message here..." maxlength="500" required></textarea>
-
+                                <p id="error_message"></p>
                                 <div id="submit_button">
                                     <button class="start-button" type="submit">
                                         Start collaboration
@@ -460,5 +460,6 @@
             </div>
         </div>
         <script src="js/index.js"></script>
+        <script src="js/validation.js"></script>
     </body>
 </html>

@@ -651,6 +651,11 @@ h4 {
   display: none;
 }
 
+#error_message {
+  text-align: center;
+  color: #c92735;
+}
+
 @media (min-width: 768px) {
   body {
     overflow-x: hidden;
@@ -1129,7 +1134,7 @@ h4 {
 
   .user-form {
     display: grid;
-    grid-template-rows: auto auto auto auto;
+    grid-template-rows: auto auto auto auto auto;
     grid-template-columns: 47.5% 5% 47.5%;
     margin-top: 25px;
     width: 100%;
@@ -1162,7 +1167,14 @@ h4 {
 
   #submit_button {
     grid-column: 1/ span 3;
+    grid-row: 5;
+  }
+
+  #error_message {
+    grid-column: 1/ span 3;
     grid-row: 4;
+    text-align: center;
+    color: #c92735;
   }
 
   .content {
@@ -1849,7 +1861,7 @@ h4 {
 
   .user-form {
     display: grid;
-    grid-template-rows: auto auto auto auto;
+    grid-template-rows: auto auto auto auto auto;
     grid-template-columns: 47.5% 5% 47.5%;
     margin-top: 25px;
     width: 100%;
@@ -1882,7 +1894,14 @@ h4 {
 
   #submit_button {
     grid-column: 1/ span 3;
+    grid-row: 5;
+  }
+
+  #error_message {
+    grid-column: 1/ span 3;
     grid-row: 4;
+    text-align: center;
+    color: #c92735;
   }
 
   .content {
