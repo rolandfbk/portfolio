@@ -10,5 +10,7 @@ contactForm.addEventListener('submit', (event) => {
     errorMessage.textContent = errMsg;
   } else {
     contactForm.submit();
+    localStorage.clear();
+    contactForm.reset();
   }
 });
