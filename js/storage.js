@@ -1,24 +1,6 @@
-let nameStorage = document.getElementById('name');
-let emailStorage = document.getElementById('email');
-let messageStorage = document.getElementById('message');
-
-if(!localStorage.getItem('formContent')) {
-  populateStorage();
-}else {
-  setContent();
-}
-
-function populateStorage() {
-  const formObj = {
-    nameStorage: document.getElementById('name').value,
-    emailStorage: document.getElementById('email').value,
-    messageStorage: document.getElementById('message').value
-  }
-
-  localStorage.setItem('formContent', JSON.stringify(formObj));
-
-  setContent();
-}
+const nameStorage = document.getElementById('name');
+const emailStorage = document.getElementById('email');
+const messageStorage = document.getElementById('message');
 
 function setContent() {
   const setFormContent = JSON.parse(JSON.stringify(localStorage.getItem('formContent')));
@@ -29,7 +11,24 @@ function setContent() {
   document.getElementById('message').value = newFormObj.messageStorage;
 }
 
+function populateStorage() {
+  const formObj = {
+    nameStorage: document.getElementById('name').value,
+    emailStorage: document.getElementById('email').value,
+    messageStorage: document.getElementById('message').value,
+  };
+
+  localStorage.setItem('formContent', JSON.stringify(formObj));
+
+  setContent();
+}
+
+if (!localStorage.getItem('formContent')) {
+  populateStorage();
+} else {
+  setContent();
+}
+
 nameStorage.onchange = populateStorage;
 emailStorage.onchange = populateStorage;
 messageStorage.onchange = populateStorage;
-
