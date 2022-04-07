@@ -20,3 +20,16 @@ function populateStorage() {
   setContent();
 }
 
+function setContent() {
+  const setFormContent = JSON.parse(JSON.stringify(localStorage.getItem('formContent')));
+  const newFormObj = JSON.parse(setFormContent);
+
+  document.getElementById('name').value = newFormObj.nameStorage;
+  document.getElementById('email').value = newFormObj.emailStorage;
+  document.getElementById('message').value = newFormObj.messageStorage;
+}
+
+nameStorage.onchange = populateStorage;
+emailStorage.onchange = populateStorage;
+messageStorage.onchange = populateStorage;
+
