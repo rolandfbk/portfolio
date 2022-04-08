@@ -6,36 +6,29 @@ Portfolio is a project design by a Microverse student.
 
 This is a website that presents all the qualifications and working experience of the student
 
+
 ## Built With
 
 - HTML and CSS and Javascript
-
 
 
 ## Live Demo
 
 [Live Demo Link](https://rolandfbk.github.io/portfolio/)
 
+
 ## Getting Started
 
-1. Please download the entire repo into your local computer
-2. Copy the downloaded files into the htdocs directory of xampp
-3. Run the website
+At this stage of the development, you can just download it into your computer, unzip it and run it on your browser.
 
 
-To get a local copy up and running follow these simple example steps.
+## Author
 
-### Install
+👤 Roland Ossisa Yuma
 
-Install xampp in your local computer
-
-
-
-## Authors
-
-👤 **Author1**
-
-- GitHub: [@rolandfbk](https://github.com/rolandfbk)
+- **GitHub**: [@rolandfbk](https://github.com/rolandfbk)
+- **LinkedIn**: [Roland Ossisa Yuma](linkedin.com/in/roland-ossisa-yuma-4595547b)
+- **Twitter**: [@rolandfbk](https://twitter.com/rolandfbk)
 
 
 ## 🤝 Contributing
@@ -43,6 +36,14 @@ Install xampp in your local computer
 Contributions, issues, and feature requests are welcome!
 
 Feel free to check the [issues page](../../issues/).
+
+
+## Contributors
+
+- 👤 GitHub: [@cyrilmuchemi](https://github.com/cyrilmuchemi)
+- 👤 GitHub: [@telanet](https://github.com/telanet)
+- 👤 GitHub: [@MaganaAsiati](https://github.com/MaganaAsiati)
+
 
 ## Show your support
 
