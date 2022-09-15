@@ -768,9 +768,8 @@ h4 {
     grid-column: 2;
     display: flex;
     flex-direction: column;
-    justify-content: end;
-    height: 20em;
-    background-image: url(../img/main/project.svg);
+    /* justify-content: end; */
+    /* height: 20em; */
     background-repeat: no-repeat;
     background-size: 100%;
   }
@@ -784,9 +783,19 @@ h4 {
   }
 
   .project-second-part {
-    display: grid;
-    grid-template-rows: 7.7em 50px 6.9em 6.9em 10em;
-    grid-template-columns: 22.22% 11.11% 16.66% 16.66% 33.33%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 75%;
+  }
+
+  .project-card-desktop {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
+    gap: 25px;
+    padding-right: 20px;
+    margin-bottom: 40px;
   }
 
   .project-grid {
@@ -981,7 +990,7 @@ h4 {
     grid-row: 1;
     padding-left: 4%;
     padding-top: 4%;
-    padding-bottom: 4%;
+    /* padding-bottom: 4%; */
     background-color: #1c528a;
     background-image: url(../img/language.svg);
     background-repeat: no-repeat;
@@ -995,7 +1004,7 @@ h4 {
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 800;
-    font-size: 10px;
+    font-size: 15px;
     line-height: 30px;
     padding-left: 3.5%;
   }
@@ -1004,7 +1013,7 @@ h4 {
     color: #fff;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
-    font-size: 10px;
+    font-size: 15px;
     line-height: unset;
     letter-spacing: -0.0525em;
   }
@@ -1014,7 +1023,7 @@ h4 {
     grid-row: 1;
     padding-left: 4%;
     padding-top: 4%;
-    padding-bottom: 4%;
+    /* padding-bottom: 4%; */
     background-color: #c92735;
     background-image: url(../img/framework.svg);
     background-repeat: no-repeat;
@@ -1028,7 +1037,7 @@ h4 {
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 800;
-    font-size: 10px;
+    font-size: 15px;
     line-height: 30px;
     padding-left: 3.5%;
   }
@@ -1037,7 +1046,7 @@ h4 {
     color: #fff;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
-    font-size: 10px;
+    font-size: 15px;
     line-height: unset;
     letter-spacing: -0.0525em;
   }
@@ -1046,7 +1055,7 @@ h4 {
     grid-column: 1;
     grid-row: 2;
     padding-left: 4%;
-    padding-top: 4%;
+    /* padding-top: 4%; */
     padding-bottom: 4%;
     background-color: #db8e08;
     background-image: url(../img/skills.svg);
@@ -1061,7 +1070,7 @@ h4 {
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 800;
-    font-size: 10px;
+    font-size: 15px;
     line-height: 30px;
     padding-left: 3.5%;
   }
@@ -1070,7 +1079,7 @@ h4 {
     color: #fff;
     font-family: 'Poppins', sans-serif;
     font-style: normal;
-    font-size: 10px;
+    font-size: 15px;
     line-height: unset;
     letter-spacing: -0.0525em;
   }
@@ -1245,7 +1254,9 @@ h4 {
   .wrapper-project-popup-main {
     display: none;
     flex-direction: column;
-    padding: 40px;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 5%;
     background-color: rgba(26, 34, 54, 0.95);
   }
 
@@ -1286,8 +1297,9 @@ h4 {
 
   .project-popup-main-button-collaboration {
     display: flex;
-    margin-right: 10%;
-    justify-content: start;
+    /* margin-right: 10%; */
+    justify-content: center;
+    gap: 25px;
   }
 
   .content-project-popup-main {
@@ -1332,7 +1344,7 @@ h4 {
     color: #1a2236;
     border: 1px solid #1a2236;
     width: 70%;
-    margin-right: 10%;
+    /* margin-right: 10%; */
   }
 
   .project-popup-main-button-nav button + button {
@@ -1493,9 +1505,8 @@ h4 {
     grid-column: 2;
     display: flex;
     flex-direction: column;
-    justify-content: end;
-    height: 20em;
-    background-image: url(../img/main/project.svg);
+    /* justify-content: end; */
+    /* height: 20em; */
     background-repeat: no-repeat;
     background-size: 100%;
   }
@@ -1509,9 +1520,19 @@ h4 {
   }
 
   .project-second-part {
-    display: grid;
-    grid-template-rows: 13em 50px 10em 11em 15em;
-    grid-template-columns: 22.22% 11.11% 16.66% 16.66% 33.33%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 70%;
+  }
+
+  .project-card-desktop {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
+    gap: 40px;
+    padding-right: 20px;
+    margin-bottom: 40px;
   }
 
   .project-grid {
@@ -1708,7 +1729,7 @@ h4 {
     grid-row: 1;
     padding-left: 10%;
     padding-top: 4%;
-    padding-bottom: 4%;
+    /* padding-bottom: 4%; */
     background-color: #1c528a;
     background-image: url(../img/language.svg);
     background-repeat: no-repeat;
@@ -1741,7 +1762,7 @@ h4 {
     grid-row: 1;
     padding-left: 10%;
     padding-top: 4%;
-    padding-bottom: 4%;
+    /* padding-bottom: 4%; */
     background-color: #c92735;
     background-image: url(../img/framework.svg);
     background-repeat: no-repeat;
@@ -1773,7 +1794,7 @@ h4 {
     grid-column: 1;
     grid-row: 2;
     padding-left: 10%;
-    padding-top: 4%;
+    /* padding-top: 4%; */
     padding-bottom: 4%;
     background-color: #db8e08;
     background-image: url(../img/skills.svg);
@@ -1972,7 +1993,9 @@ h4 {
   .wrapper-project-popup-main {
     display: none;
     flex-direction: column;
-    padding: 40px;
+    padding-left: 20%;
+    padding-right: 20%;
+    padding-top: 5%;
     background-color: rgba(26, 34, 54, 0.95);
   }
 
@@ -2013,8 +2036,9 @@ h4 {
 
   .project-popup-main-button-collaboration {
     display: flex;
-    margin-right: 10%;
-    justify-content: start;
+   /* margin-right: 10%; */
+   justify-content: center;
+   gap: 25px;
   }
 
   .content-project-popup-main {
@@ -2059,7 +2083,7 @@ h4 {
     color: #1a2236;
     border: 1px solid #1a2236;
     width: 70%;
-    margin-right: 10%;
+    /* margin-right: 10%; */
   }
 
   .project-popup-main-button-nav button + button {
